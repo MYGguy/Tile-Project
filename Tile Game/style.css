@@ -1,0 +1,100 @@
+body {
+    background-color: #f0ecec;
+    word-wrap: break-word;
+    display: flex;
+}
+
+.main-page {
+    background-color: rgb(241, 230, 216);
+
+    border-radius: 15px;
+    
+    -justify-content: center;
+    -align-items: center;
+    -margin-top: 100px;
+    
+    width: 75%;
+    -height: 100%;
+    
+    margin: 0;
+    padding: 25px 0px;
+}
+
+h1 {
+    color: #151515;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+    
+    margin: 0;
+
+}
+
+
+/*
+Center this
+
+blue gridbox*/ .main-grid {
+    background-color: #55c;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    -margin: 0;
+    padding: 0;
+    
+    width: 300px;
+    height: 300px;
+}
+
+/*green gridbox*/ .column {
+    background-color: #5c5;
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding: 0px 0px;
+
+}
+
+/*each box*/ .box {
+    background-color: #c55;
+    border: 5px solid #151515;
+    flex-direction: row;
+    
+    margin: 10px 10px;
+    padding: 20px;
+    
+    -width: 5px;
+    -height: 5px;
+}
+
+#one {
+    
+}
+
+#two .three:hover {
+    background-color: #55c;    
+}
+
+#two .three:active {
+    background-color: rgb(196, 85, 204);    
+}
+
+/* ?? */#two .three:visited {
+    background-color: rgb(76, 8, 81);    
+}
+
+#three {
+
+}
+
+#four {
+
+}
