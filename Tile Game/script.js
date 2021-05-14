@@ -42,3 +42,5 @@ function message() {
 keypress(keys);
 
 message();
+
+//The second parameter of the event listener is a function.
