@@ -39,7 +39,7 @@ ul {
 /*
 Center this
 
-blue gridbox*/ .main-grid {
+blue gridbox*/ #main-grid {
     background-color: #55c;
     
     display: flex;
