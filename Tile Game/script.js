@@ -51,20 +51,22 @@ function init() {
 function keyDetect() {
     document.addEventListener('keydown', action);
 
-    function action(key) {
-        if (key.code == 'KeyW') {
-            console.log('You have pressed Up ' + key.key);
+    function action(keyPress) {
         
-        function moveTilesUp() {
-            
-        };
+        var getColumn = document.getElementsByClassName.column;
 
+        if (keyPress.code == 'KeyW') {
+            console.log('You have pressed Up ' + keyPress.key);
+
+            function moveTilesUp() {
+                
+            };
+        
         } else {
-            console.log('Nope ' + key.key)
+            console.log('Nope ' + keyPress.key)
         }
         return;
     };
 };
-
 
 init();
