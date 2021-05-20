@@ -16,28 +16,36 @@
 //         return;
 // };
 
-function wPress(w) {
-    document.addEventListener('keydown', wMessage); {
-    // if (wPress === w) {
-    //     console.log('You have pressed Up wDectection ' + w + ' ' + w); 
-    //     } else {
-    //         console.log('Nope wDetection ' + w);
-    //     }
-    };
-    return;
-};
+//---------
 
-function wMessage(w) {
-    if (wPress === w) {
-        console.log('You have pressed Up wMessage ' + w + ' ' + w); 
-        } else {
-            console.log('Nope wMessage ' + w);
-        }
-    };
+// function wPress(w) {
+//     document.addEventListener('keydown', wMessage); {
+//     // if (wPress === w) {
+//     //     console.log('You have pressed Up wDectection ' + w + ' ' + w); 
+//     //     } else {
+//     //         console.log('Nope wDetection ' + w);
+//     //     }
+//     };
+//     return;
+// };
+
+// function wMessage(w) {
+//     if (wPress === w) {
+//         console.log('You have pressed Up wMessage ' + w + ' ' + w); 
+//         } else {
+//             console.log('Nope wMessage ' + w);
+//         }
+//     };
+
+// function init() {
+//     wPress(119);
+//     wMessage(119);
+// };
+
+//--------------
 
 function init() {
-    wPress(119);
-    wMessage(119);
+    wPress();
 };
 
 init();
