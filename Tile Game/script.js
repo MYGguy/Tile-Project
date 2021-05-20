@@ -45,7 +45,21 @@
 //--------------
 
 function init() {
-    wPress();
+    keyDetect(119);
 };
+
+function keyDetect(w) {
+    w = document.addEventListener('keydown', action);
+
+    function action(key) {
+        if (key.key == 'w') {
+            console.log('You have pressed W ' + key)
+        } else {
+            console.log('Nope ' + key.key)
+        }
+        return;
+    };
+};
+
 
 init();
