@@ -45,15 +45,20 @@
 //--------------
 
 function init() {
-    keyDetect(119);
+    keyDetect();
 };
 
 function keyDetect() {
     document.addEventListener('keydown', action);
 
     function action(key) {
-        if (key.key == 'w') {
-            console.log('You have pressed Up ' + key.key)
+        if (key.code == 'KeyW') {
+            console.log('You have pressed Up ' + key.key);
+        
+        function moveTilesUp() {
+            
+        };
+
         } else {
             console.log('Nope ' + key.key)
         }
