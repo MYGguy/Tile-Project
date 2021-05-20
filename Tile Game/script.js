@@ -53,13 +53,22 @@ function keyDetect() {
 
     function action(keyPress) {
         
-        var getColumn = document.getElementsByClassName.column;
+        var getColumn = document.querySelector('column');
 
         if (keyPress.code == 'KeyW') {
             console.log('You have pressed Up ' + keyPress.key);
 
+            for(let i = 0; i < stylesheet.cssRules.length; i++) {
+                if(stylesheet.cssRules[i].selectorText === '.column') {
+                boxParaRule = stylesheet.cssRules[i];
+                }
+            }
+
             function moveTilesUp() {
-                
+                document.style.setproperty.getColumn('background-color', 'rgb'('555'));
+
+                moveTilesUp();
+
             };
         
         } else {
