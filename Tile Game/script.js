@@ -48,12 +48,12 @@ function init() {
     keyDetect(119);
 };
 
-function keyDetect(w) {
-    w = document.addEventListener('keydown', action);
+function keyDetect() {
+    document.addEventListener('keydown', action);
 
     function action(key) {
         if (key.key == 'w') {
-            console.log('You have pressed W ' + key)
+            console.log('You have pressed Up ' + key.key)
         } else {
             console.log('Nope ' + key.key)
         }
